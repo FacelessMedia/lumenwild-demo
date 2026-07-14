@@ -1,0 +1,27 @@
+{
+  "project": "Lumenwild",
+  "platform": "Devin",
+  "startedAt": "2026-07-13T18:11:38.2176154-04:00",
+  "completedAt": "2026-07-13T19:05:28.8283311-05:00",
+  "elapsedSeconds": 6831,
+  "elapsedDisplay": "1h 53m 50s",
+  "plan": {
+    "monthlyUsd": 200,
+    "weeklyEquivalentUsd": 50
+  },
+  "telemetry": {
+    "inputTokens": null,
+    "outputTokens": null,
+    "creditsBefore": null,
+    "creditsAfter": null,
+    "creditsUsed": null,
+    "costUsd": null,
+    "status": "unavailable_in_session_api"
+  },
+  "calculation": "costUsd = weeklyEquivalentUsd * (creditsUsed / weeklyCreditAllowance)",
+  "sources": [
+    "https://docs.devin.ai/admin/billing/usage",
+    "https://docs.devin.ai/desktop/accounts/quota"
+  ],
+  "integrityNote": "The session API exposes no token, quota, credit, or dollar counters, and the authenticated plan page is outside this browser session. Null values are retained rather than fabricating usage."
+}

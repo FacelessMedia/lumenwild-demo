@@ -1,0 +1,7 @@
+@import './styles/base.css';
+@import './styles/title.css';
+@import './styles/world.css';
+@import './styles/battle.css';
+@import './styles/menu.css';
+@import './styles/receipt-ending.css';
+@import './styles/responsive.css';
